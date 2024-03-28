@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_calc.py:26 参数-0.01, 0.02, 期望结果0.01
+[32mINFO    [0m root:test_calc.py:30 结果为：0.01

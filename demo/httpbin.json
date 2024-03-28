@@ -1,0 +1,52 @@
+{
+  "$schema" : "http://json-schema.org/schema#" ,
+  "type" : "object" ,
+  "properties" : {
+    "args" : {
+      "type" : "object"
+    } ,
+    "headers" : {
+      "type" : "object" ,
+      "properties" : {
+        "Accept" : {
+          "type" : "string"
+        } ,
+        "Accept-Encoding" : {
+          "type" : "string"
+        } ,
+        "Host" : {
+          "type" : "string"
+        } ,
+        "Sw8" : {
+          "type" : "string"
+        } ,
+        "User-Agent" : {
+          "type" : "string"
+        } ,
+        "X-Forwarded-Host" : {
+          "type" : "string"
+        }
+      } ,
+      "required" : [
+        "Accept" ,
+        "Accept-Encoding" ,
+        "Host" ,
+        "Sw8" ,
+        "User-Agent" ,
+        "X-Forwarded-Host"
+      ]
+    } ,
+    "origin" : {
+      "type" : "string"
+    } ,
+    "url" : {
+      "type" : "string"
+    }
+  } ,
+  "required" : [
+    "args" ,
+    "headers" ,
+    "origin" ,
+    "url"
+  ]
+}
